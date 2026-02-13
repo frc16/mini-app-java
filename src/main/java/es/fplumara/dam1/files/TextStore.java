@@ -8,7 +8,7 @@ public interface TextStore { //en las interfaces te dice que metodo se deben o p
     public void save(Message message);
 
     //metodo para leer todo el texto
-    public String readAll();
+    public void readAll();
 
     //metodo para leer las ultimas n lineas
     public String readLast(int n);

@@ -30,7 +30,7 @@ public class FileTextStore implements TextStore {
     }
 
     @Override
-    public String readAll() {
+    public void readAll() {
         return "";
     }
 
